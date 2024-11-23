@@ -25,10 +25,10 @@ sex_d = {0: "Kobieta", 1: "Mężczyzna"}
 data = pd.read_csv("DSP_1.csv")
 # Wczytujemy dane z pliku CSV
 
-age_min, age_max = data["age"].min(), data["age"].max()
-sibsp_min, sibsp_max = data["sibsp"].min(), data["sibsp"].max()
-parch_min, parch_max = data["parch"].min(), data["parch"].max()
-fare_min, fare_max = data["fare"].min(), data["fare"].max()
+age_min, age_max = data["Age"].min(), data["Age"].max()
+sibsp_min, sibsp_max = data["SibSp"].min(), data["SibSp"].max()
+parch_min, parch_max = data["Parch"].min(), data["Parch"].max()
+fare_min, fare_max = data["Fare"].min(), data["Fare"].max()
 # Wyznaczamy wartości minimalne i maksymalne dla zmiennych
 
 def main():
