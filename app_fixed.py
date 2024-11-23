@@ -7,11 +7,11 @@ from datetime import datetime
 startTime = datetime.now()
 # import znanych nam bibliotek
 
-import pathlib
-from pathlib import Path
+#import pathlib
+#from pathlib import Path
 
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 filename = "model.sv"
 model = pickle.load(open(filename,'rb'))
