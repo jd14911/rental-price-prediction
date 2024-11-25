@@ -34,7 +34,7 @@ oldpeak_min, oldpeak_max = data["Oldpeak"].min(), data["Oldpeak"].max()
 
 def main():
 
-	st.set_page_config(page_title="Titanic")
+	st.set_page_config(page_title="HeartDisease")
 	overview = st.container()
 	left, right = st.columns(2)
 	prediction = st.container()
