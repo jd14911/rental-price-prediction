@@ -14,14 +14,14 @@ startTime = datetime.now()
 #pathlib.PosixPath = pathlib.WindowsPath
 #Konieczne było usunięcie path, ponieważ generowało błędy w streamlit share
 
-filename = "model.sv"
+filename = "model2.sv"
 model = pickle.load(open(filename,'rb'))
 # otwieramy wcześniej wytrenowany model
 
 restingecg_d = {0:"Normalne",1:"ST", 2:"LVH"}
 # o ile wcześniej kodowaliśmy nasze zmienne, to teraz wprowadzamy etykiety z ich nazewnictwem
 
-data = pd.read_csv("DSP_1.csv")
+data = pd.read_csv("DSP_8.csv")
 # Wczytujemy dane z pliku CSV
 
 age_min, age_max = data["Age"].min(), data["Age"].max()
