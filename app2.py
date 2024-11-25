@@ -39,7 +39,7 @@ def main():
 	left, right = st.columns(2)
 	prediction = st.container()
 
-	st.image("https://commons.wikimedia.org/wiki/File:Simple-heart-icon.png")
+	st.image("https://upload.wikimedia.org/wikipedia/commons/d/d7/Simple-heart-icon.png")
 
 	with overview:
 		st.title("Choroby Serca")
